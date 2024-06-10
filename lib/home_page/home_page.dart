@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:nda_proverb_project/home_page/next_page.dart';
 import 'package:nda_proverb_project/proverb.dart';
+
 
 
 class HomePage extends StatefulWidget {
@@ -14,141 +16,141 @@ class _HomePageState extends State<HomePage> {
   List<ProverbBank> proverbBanks = [
     ProverbBank(
       images: [
-        ImagePath.j1,
-        ImagePath.j2,
-        ImagePath.j3,
-        ImagePath.j4,
+        ImagePath.jj1,
+        ImagePath.jj2,
+        ImagePath.jj3,
+        ImagePath.jj4,
       ],
-      correctAnswer: 'The Gold that will shine would go through fire',
+      correctAnswer: 'A hunter who has only one arrow does not shoot with careless aim.',
       options: [
-        'The Gold that will shine would go through fire',
-        'The person light shines on think he alone is brigthen by the sun',
-        'A person that got beaten by rain but wasn’t struck by lightning should be thankful'],
+        'A hunter who has only one arrow does not shoot with careless aim.',
+        'Hold a true friend with both hands.',
+        'A child does not die because the mother’s breasts are dry.'],
     ),
 
     ProverbBank(
       images: [
-        ImagePath.a1,
-        ImagePath.a2,
-        ImagePath.a3,
-        ImagePath.a4
+        ImagePath.aa1,
+        ImagePath.aa2,
+        ImagePath.aa3,
+        ImagePath.aa4
       ],
-      correctAnswer: 'The insects that eat up vegetables are always located within its premises',
+      correctAnswer: 'When the music changes, so does the dance.',
       options: [
-        'The insects that eat up vegetables are always located within its premises',
-        'There is no smoke without fire, and no pest without a source',
-        'As you sow, so shall you reap'
+        'Without knowing a person we must not hate him.',
+        'Ugliness with a good character is better than beauty.',
+        'When the music changes, so does the dance.'
       ],
     ),
     ProverbBank(
       images: [
-        ImagePath.b1,
-        ImagePath.b2,
-        ImagePath.b3,
-        ImagePath.b4
+        ImagePath.bb1,
+        ImagePath.bb2,
+        ImagePath.bb3,
+        ImagePath.bb4
       ],
-      correctAnswer: 'When a king’s palace burns down, a rebuilt one turns out to be more attractive',
+      correctAnswer: 'That man who has one eye will only thank God if he sees a blind man.',
       options: [
-        'Uneasy lies the head that wears a crown',
-        'When a king’s palace burns down, a rebuilt one turns out to be more attractive',
-        'All that glitters is not gold, and not every palace is a home'],
+        'That man who has one eye will only thank God if he sees a blind man.',
+        'One finger cannot remove lice from the head.',
+        'Love is better than a whip.'],
     ),
     ProverbBank(
       images: [
-        ImagePath.c1,
-        ImagePath.c2,
-        ImagePath.c3,
-        ImagePath.c4,
+        ImagePath.cc1,
+        ImagePath.cc2,
+        ImagePath.cc3,
+        ImagePath.cc4,
       ],
-      correctAnswer: 'A person that got beaten by rain but wasn’t struck by lightning should be thankful',
+      correctAnswer: 'You cannot beat a drum with one finger.',
       options: [
-        'The darkest storms bring the brightest bolts; in the rain dance, lightning exults.',
-        'Lightning never strikes the same place twice',
-        'A person that got beaten by rain but wasn’t struck by lightning should be thankful'],
+        'When the laborer is praised, his cutlass begins to cut more keenly.',
+        'What affects the nose must also affect the eyes that must weep for it.',
+        'You cannot beat a drum with one finger.'],
     ),
     ProverbBank(
       images: [
-        ImagePath.d1,
-        ImagePath.d2,
-        ImagePath.d3,
-        ImagePath.d4,
+        ImagePath.dd1,
+        ImagePath.dd2,
+        ImagePath.dd3,
+        ImagePath.dd4,
       ],
-      correctAnswer: 'A child abuses iroko tree and looks back thinking evil spirit doesn’t kill immediately',
+      correctAnswer: 'What an elder saw while sitting, a youth could not see it standing.',
       options: [
-        'A child is like a young tree; nurture it well, and it will grow strong and true.',
-        'A child abuses iroko tree and looks back thinking evil spirit doesn’t kill immediately',
-        'As the tree is known by its fruit, so is a child known by their actions'],
-    ),
-
-    ProverbBank(
-      images: [
-        ImagePath.e1,
-        ImagePath.e2,
-        ImagePath.e3,
-        ImagePath.e4,
-      ],
-      correctAnswer: 'A bird that compares itself to vultures will end up getting roasted at the fireplace',
-      options: [
-        'Like a bird that finds warmth in the fire, a wise person seeks comfort in challenges.',
-        'Just as a bird needs the warmth of the sun, a fire needs the fuel of care to keep burning',
-        'A bird that compares itself to vultures will end up getting roasted at the fireplace'],
+        'What an elder saw while sitting, a youth could not see it standing.',
+        'Marriage is like groundnut, you have to crack it to see what is inside.',
+        'Fowls will not spare a cockroach that falls in their mist.'],
     ),
 
     ProverbBank(
       images: [
-        ImagePath.f1,
-        ImagePath.f2,
-        ImagePath.f3,
-        ImagePath.f4,
+        ImagePath.ee1,
+        ImagePath.ee2,
+        ImagePath.ee3,
+        ImagePath.ee4,
       ],
-      correctAnswer: 'Snails and dogs may have different paces at running but even though the snail is slower, it will also be able to get to its destination',
+      correctAnswer: 'The blind man doesn’t need to be told that it’s raining',
       options: [
-        'As slow as a snails pace, yet loyal as a dogs embrace.',
-        'Snails and dogs may have different paces at running but even though the snail is slower, it will also be able to get to its destination',
-        'In patience, a snail; in loyalty, a dog – the virtues of a steadfast journey'],
+        'A hunter who has only one arrow does not shoot with careless aim.',
+        'A man does not wander far from where his corn is roasting.',
+        'The blind man doesn’t need to be told that it’s raining'],
+    ),
+
+    ProverbBank(
+      images: [
+        ImagePath.ff1,
+        ImagePath.ff2,
+        ImagePath.ff3,
+        ImagePath.ff4,
+      ],
+      correctAnswer: 'When elephants fight, it is the grass that suffers',
+      options: [
+        'When elephants fight, it is the grass that suffers.',
+        'Do not call the forest that shelters you a jungle.',
+        'If you offend, ask for a pardon; if offended, forgive.'],
     ),
 
 
     ProverbBank(
       images: [
-        ImagePath.g1,
-        ImagePath.g2,
-        ImagePath.g3,
-        ImagePath.g4,
+        ImagePath.gg1,
+        ImagePath.gg2,
+        ImagePath.gg3,
+        ImagePath.gg4,
       ],
-      correctAnswer: 'It is because of the feathers of chickens that we don’t see when they sweat',
+      correctAnswer: ' Empty Barrels Make the Most Noise',
       options: [
-        'It is because of the feathers of chickens that we don’t see when they sweat',
-        'Dont count your chickens before they hatch.',
-        'Running around like a headless chicken'],
+        'He who sleeps with an itchy anus must wake up with smelly fingers.',
+        'Empty Barrels Make the Most Noise.',
+        'Choose your neighbors before you buy your house.'],
     ),
 
     ProverbBank(
       images: [
-        ImagePath.h1,
-        ImagePath.h2,
-        ImagePath.h3,
-        ImagePath.h4,
+        ImagePath.hh1,
+        ImagePath.hh2,
+        ImagePath.hh3,
+        ImagePath.hh4,
       ],
-      correctAnswer: 'A stray dog does not hear the whisper of a hunter or anyone willing to find it because it is destined to get lost',
+      correctAnswer: 'No matter how dark it is, the hand always knows the way to the mouth.',
       options: [
-        'Let sleeping dogs lie, especially when the hunter is near.',
-        'Every dog has its day in the hunt.',
-        'A stray dog does not hear the whisper of a hunter or anyone willing to find it because it is destined to get lost'],
+        'When the mouse laughs at the cat there is a hole nearby.',
+        'If you cannot look ahead, you will always remain behind.',
+        'No matter how dark it is, the hand always knows the way to the mouth.'],
     ),
 
     ProverbBank(
       images: [
-        ImagePath.i1,
-        ImagePath.i2,
-        ImagePath.i3,
-        ImagePath.i4,
+        ImagePath.ii1,
+        ImagePath.ii2,
+        ImagePath.ii3,
+        ImagePath.ii4,
       ],
-      correctAnswer: 'It is only a child who raises his hinds that will be picked up',
+      correctAnswer: 'A fowl does not forget where it lays its eggs.',
       options: [
-        'It is only a child who raises his hinds that will be picked up',
-        'A childs laughter is the hearts medicine.',
-        'Children are the anchors that hold a mother to life.'],
+        'Water may cover the footprint on the ground but it does not cover the words of the mouth.',
+        'A fowl does not forget where it lays its eggs.',
+        'Until lions have their own historians, accounts of the hunt will always celebrate the hunter.'],
     ),
 
   ];
@@ -177,8 +179,9 @@ class _HomePageState extends State<HomePage> {
           builder: (BuildContext context) {
             return AlertDialog(
               title: const Text('End of Proverb'),
-              content: const Text(
-                  'You can restart the proverb or go to the next stage'),
+              content: Text(
+                'Your score is, Right: $score, Wrong: $missedCount',
+              ),
               actions: [
                 TextButton(
                   child: const Text('Restart'),
@@ -195,13 +198,17 @@ class _HomePageState extends State<HomePage> {
                   child: const Text('Next'),
                   onPressed: () {
                     Navigator.of(context).pop();
-                    // Implement logic for the next stage if any
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => const NextPage()),
+                    );
                   },
                 ),
               ],
             );
           },
         );
+
 
       }
     });
@@ -217,11 +224,11 @@ class _HomePageState extends State<HomePage> {
             padding: const EdgeInsets.only(right: 30.0),
             child: Row(
               children: [
-                Text('Scored: $score'),
+                Text('Right: $score'),
                 const SizedBox(
                   width: 20,
                 ),
-                Text('Missed: $missedCount'),
+                Text('Wrong: $missedCount'),
               ],
             ),
           )

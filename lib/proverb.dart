@@ -42,6 +42,49 @@ class ImagePath {
   static const j4 = '$imgBasePath/j4.PNG';
 
 
+// Stage 1
+
+  static const aa1 = '$imgBasePath/aa1.jpg';
+  static const aa2 = '$imgBasePath/aa2.jpg';
+  static const aa3 = '$imgBasePath/aa3.jpg';
+  static const aa4 = '$imgBasePath/aa4.jpg';
+  static const bb1 = '$imgBasePath/bb1.jpg';
+  static const bb2 = '$imgBasePath/bb2.jpg';
+  static const bb3 = '$imgBasePath/bb3.jpg';
+  static const bb4 = '$imgBasePath/bb4.jpg';
+  static const cc1 = '$imgBasePath/cc1.jpg';
+  static const cc2 = '$imgBasePath/cc2.jpg';
+  static const cc3 = '$imgBasePath/cc3.jpg';
+  static const cc4 = '$imgBasePath/cc4.jpg';
+  static const dd1 = '$imgBasePath/dd1.jpg';
+  static const dd2 = '$imgBasePath/dd2.jpg';
+  static const dd3 = '$imgBasePath/dd3.jpg';
+  static const dd4 = '$imgBasePath/dd4.jpg';
+  static const ee1 = '$imgBasePath/ee1.jpg';
+  static const ee2 = '$imgBasePath/ee2.jpg';
+  static const ee3 = '$imgBasePath/ee3.jpg';
+  static const ee4 = '$imgBasePath/ee4.jpg';
+  static const ff1 = '$imgBasePath/ff1.jpg';
+  static const ff2 = '$imgBasePath/ff2.jpg';
+  static const ff3 = '$imgBasePath/ff3.jpg';
+  static const ff4 = '$imgBasePath/ff4.jpg';
+  static const gg1 = '$imgBasePath/gg1.jpg';
+  static const gg2 = '$imgBasePath/gg2.jpg';
+  static const gg3 = '$imgBasePath/gg3.jpg';
+  static const gg4 = '$imgBasePath/gg4.jpg';
+  static const hh1 = '$imgBasePath/hh1.jpg';
+  static const hh2 = '$imgBasePath/hh2.jpg';
+  static const hh3 = '$imgBasePath/hh3.jpg';
+  static const hh4 = '$imgBasePath/hh4.jpg';
+  static const ii1 = '$imgBasePath/ii1.jpg';
+  static const ii2 = '$imgBasePath/ii2.jpg';
+  static const ii3 = '$imgBasePath/ii3.jpg';
+  static const ii4 = '$imgBasePath/ii4.jpg';
+  static const jj1 = '$imgBasePath/jj1.jpg';
+  static const jj2 = '$imgBasePath/jj2.jpg';
+  static const jj3 = '$imgBasePath/jj3.jpg';
+  static const jj4 = '$imgBasePath/jj4.jpg';
+
 }
 
 class ProverbBank {
